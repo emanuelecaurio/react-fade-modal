@@ -1,0 +1,67 @@
+
+:where(.container) {
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+:where(.modal) {
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+    min-width: 10%;
+    width: 50%;
+    min-height: 10%;
+    background: white;
+    margin: 5rem auto 0 auto;
+    white-space: pre-wrap;
+    box-shadow: 20px 20px 16px 4px rgba(0, 0, 0, 0.57);
+
+}
+
+:where(.titleSection) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:where(.closeIcon) {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+:where(.closeIcon:hover) {
+    fill: #939393;
+}
+
+:where(.title) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+:where(.content) {
+    margin-top: 20px
+}
+
+/* media queries */
+@media (max-width: 700px) {
+    :where(.modal) {
+        width: 80%;
+    }
+}
+
+@media (max-height: 505px) {
+    :where(.modal) {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    :where(.modal) {
+        width: 70%;
+    }
+}
