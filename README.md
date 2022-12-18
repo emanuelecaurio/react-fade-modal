@@ -1,4 +1,6 @@
 # React Fade Modal
+<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/react-fade-modal"> <img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/react-fade-modal">
+
 Responsive react modal with fade in-out effect included without any external libraries.
 
 ## Motivation
@@ -8,7 +10,7 @@ This modal is 100% purely made using virtual DOM instead.
 Also, you can customize the UI based on your needs without worrying about css conflicts, 
 thanks to the `:where` css pseudo-class and `module.css`. 
 <br/>
-Not less important, extreme small bundle. <br/>
+Not less important, [extreme small size](https://bundlephobia.com/package/react-fade-modal). <br/>
 
 ## Getting Started
 
@@ -61,7 +63,7 @@ In this case, it's better to use `ModalProvider` in order to ensure that the `Mo
 is on top of the DOM and the graphic does not change:
 
 ```js
-import {Modal} from 'react-fade-modal'
+import {ModalProvider} from 'react-fade-modal'
 
 function App() {
     return (
