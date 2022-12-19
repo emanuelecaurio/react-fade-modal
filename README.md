@@ -126,8 +126,9 @@ Every css classes used in this component are written into `module.css` file and
 wrapped into `:where` pseudo-class, which gives them 0 specificity,
 so you can override current css properties through your custom css classes.
 <br/>
-More about [:where pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)
-<br/>
+More about [:where pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:where),
+[Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#how_is_specificity_calculated) and [the :where exception](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#the_where_exception)
+<br/> 
 More about [css modules](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)
 
 ## Project Structure
