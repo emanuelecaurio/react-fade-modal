@@ -129,7 +129,7 @@ so you can override current css properties through your custom css classes.
 More about [:where pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:where),
 [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#how_is_specificity_calculated) and [the :where exception](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#the_where_exception)
 <br/> 
-More about [css modules](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)
+More about [css modules](https://css-tricks.com/css-modules-part-1-need/)
 
 ## Project Structure
 The project includes a demo folder initialized with Create React App.
