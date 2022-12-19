@@ -1,6 +1,6 @@
 {
   "name": "react-fade-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Responsive and customizable modal with fade effect",
   "main": "dist/index.js",
   "files": [
