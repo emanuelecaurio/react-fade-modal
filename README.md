@@ -3,6 +3,7 @@
 
 Responsive react modal with fade in-out effect included without any external libraries.
 
+**works with**: `React >= 16.8` or higher
 ## Motivation
 Most famous react modals refers to real DOM. <br/>
 This modal is 100% purely made using virtual DOM instead.
